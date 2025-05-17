@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1327397176038114469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1327397176038114471}
+  - component: {fileID: 1327397176038114470}
+  m_Layer: 0
+  m_Name: BlackHole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1327397176038114471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327397176038114469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1327397176038114470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327397176038114469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7030161fac5f065439d1cc1d18864276, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _RenderBlackHole: 1
+  _HasAccretionDisk: 0
+  _AccretionDiskSpeed: 0.25
+  _EventHorizon: 5000
+  _AccretionDiskDetail: 2.5
+  _AccretionDiskSize: 10000
+  _AccretionDiskGap: 2000
+  _AccretionDiskColor: {r: 1, g: 0.54813683, b: 0, a: 1}
+  _EnableDopplerEffect: 1
+  _AccretionDiskPower: 2
+  _Gravity: 2e+13
+  _MaxRotation: 0
+  _MarchingSteps: 128
+  _LensingResolution: 256
+  _BlackHoleShader: {fileID: 4800000, guid: edfca5696dec1814eb9e32265de578ff, type: 3}
+  _Icosphere: {fileID: 289301614986012343, guid: 4fe807e94b8fca2419d3701519ce46cb, type: 3}
+  _AccretionDiskNoise: {fileID: 2800000, guid: c7a07b737c0c7b24180a391fb79558ed, type: 3}
