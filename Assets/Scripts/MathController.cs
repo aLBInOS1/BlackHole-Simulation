@@ -38,7 +38,7 @@ public class MathController : MonoBehaviour
 
         //float forceMagnitude = G * (M * settingsController.camWeight) / (predictedDistance * predictedDistance);
         //Vector3 acceleration = direction * (forceMagnitude / settingsController.camWeight);
-        Vector3 acceleration = direction * (G * M / (distance * distance));
+        Vector3 acceleration = direction.normalized * (G * M / (distance * distance));
         gravityAcceleration = acceleration.magnitude;
 
         if (distance <= schwarzschildRadius)

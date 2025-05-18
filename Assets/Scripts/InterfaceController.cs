@@ -16,18 +16,6 @@ public class InterfaceController : MonoBehaviour
 
     private void Update()
     {
-        #region Adjusting output variables
-        // Adjusting the display of gravitational acceleration
-        float displayAcceleration = mathController.gravityAcceleration;
-        if (displayAcceleration > 1e10f)
-        {
-            // If the calculations in the formula are given in m/s^2, but the value is too high
-            displayAcceleration /= 1e6f;
-        }
-
-        float distanceInKm = mathController.distance * 1000;
-        #endregion
-
         if (mathController.isInEventHorizon)
         {
             evtHorCrossedInfoPanel.SetActive(true);
@@ -39,11 +27,11 @@ public class InterfaceController : MonoBehaviour
             turnOffGravityInfoPanel.SetActive(false);
         }
 
-        statText.text = "Расстояние (r): " + distanceInKm.ToString("F0") + " км" +
-            "\nРадиус Шварцшильда (Rs): " + mathController.schwarzschildRadius.ToString("F3") + " км" +
+        statText.text = "Расстояние (r): " + mathController.distance.ToString("F0") + " м" +
+            "\nРадиус Шварцшильда (Rs): " + mathController.schwarzschildRadius.ToString("F3") + " м" +
             "\nРасстояние / радиус Шварцшильда (r/Rs): " + mathController.distanceBySchwarzschildRadius.ToString("F4") +
             "\nМасса чёрной дыры (M): " + FormatBigNumber(MathController.M) + " кг" +
-            "\nГравитационное ускорение (g): " + FormatBigNumber(displayAcceleration) + " м/с²";
+            "\nГравитационное ускорение (g): " + FormatBigNumber(mathController.gravityAcceleration) + " м/с²";
     }
 
     /// <summary>
