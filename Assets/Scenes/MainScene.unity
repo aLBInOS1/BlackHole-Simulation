@@ -210,9 +210,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 240459458}
+  - component: {fileID: 240459459}
   - component: {fileID: 240459461}
   - component: {fileID: 240459460}
-  - component: {fileID: 240459459}
   m_Layer: 5
   m_Name: '[Button]Time'
   m_TagString: Untagged
@@ -976,7 +976,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1/10\u2077"
+  m_Text: "1/10\u2075"
 --- !u!222 &802630989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1155,9 +1155,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 965782315}
+  - component: {fileID: 965782316}
   - component: {fileID: 965782318}
   - component: {fileID: 965782317}
-  - component: {fileID: 965782316}
   m_Layer: 5
   m_Name: '[Button]Time (2)'
   m_TagString: Untagged
@@ -1237,7 +1237,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.000001
+          m_FloatArgument: 0.0001
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1732,9 +1732,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1382594343}
+  - component: {fileID: 1382594344}
   - component: {fileID: 1382594346}
   - component: {fileID: 1382594345}
-  - component: {fileID: 1382594344}
   m_Layer: 5
   m_Name: '[Button]Time (1)'
   m_TagString: Untagged
@@ -1814,7 +1814,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.0000001
+          m_FloatArgument: 0.00001
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2087,9 +2087,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1634343187}
+  - component: {fileID: 1634343188}
   - component: {fileID: 1634343190}
   - component: {fileID: 1634343189}
-  - component: {fileID: 1634343188}
   m_Layer: 5
   m_Name: '[Button]Time (4)'
   m_TagString: Untagged
@@ -2533,7 +2533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1/10\u2076"
+  m_Text: "1/10\u2074"
 --- !u!222 &1812587611
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2626,9 +2626,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1878339015}
+  - component: {fileID: 1878339016}
   - component: {fileID: 1878339018}
   - component: {fileID: 1878339017}
-  - component: {fileID: 1878339016}
   m_Layer: 5
   m_Name: '[Button]Time (3)'
   m_TagString: Untagged
@@ -2835,9 +2835,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2038022172}
+  - component: {fileID: 2038022173}
   - component: {fileID: 2038022175}
   - component: {fileID: 2038022174}
-  - component: {fileID: 2038022173}
   m_Layer: 5
   m_Name: '[Button]ResetPos'
   m_TagString: Untagged
